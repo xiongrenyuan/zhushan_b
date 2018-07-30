@@ -1,0 +1,73 @@
+html body {
+  background: rgba(240, 240, 240, 0.3);
+  font-size: 14px;
+}
+html body .info {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 250px;
+  left: 0;
+  text-align: center;
+}
+html body .info p {
+  text-align: center;
+  font-size: 18px;
+  color: #5CB467;
+}
+html body .all_box {
+  display: none;
+  padding: 10px;
+}
+html body .all_box .box_con {
+  box-shadow: 0 0 10px #949494;
+  background: #FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+}
+html body .all_box .box_con .con_top .con {
+  overflow: auto;
+  overflow-x: hidden !important;
+}
+html body .all_box .box_con .con_top .con * {
+  font-size: 14px!important;
+}
+html body .all_box .box_con .con_top .con h1 {
+  padding: 10px 0px;
+  color: #565E92;
+  font-size: 16px;
+  font-weight: 600;
+}
+html body .all_box .box_con .con_top .con .class_big {
+  width: 100%;
+}
+html body .all_box .box_con .con_top .con table {
+  width: 100% !important;
+  overflow: hidden;
+}
+html body .all_box .box_con .con_img {
+  width: 100%;
+  margin: 10px 0px;
+}
+html body .all_box .box_con .con_bottom {
+  padding: 5px 0px;
+}
+html body .all_box .box_con .con_bottom img {
+  width: 18px;
+}
+html body .all_box .box_con .con_bottom .name {
+  color: #428cd9;
+  display: inline-block;
+  margin-left: 10px;
+}
+html body .all_box .box_con .con_bottom .fr {
+  background: #65CACB;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin-top: -5px;
+}
+html body .all_box .box_con .time {
+  color: #565E92;
+  margin-top: 5px;
+}

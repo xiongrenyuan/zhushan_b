@@ -1,0 +1,42 @@
+html body {
+  background: rgba(240, 240, 240, 0.5);
+  font-size: 14px;
+}
+html body .info {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 250px;
+  left: 0;
+  text-align: center;
+}
+html body .info p {
+  text-align: center;
+  font-size: 18px;
+  color: #5CB467;
+}
+html body .all_box {
+  display: none;
+}
+html body .all_box table {
+  color: #565E92;
+  width: 100%;
+  text-align: center;
+}
+html body .all_box table tr td {
+  padding: 5px;
+}
+html body .all_box table tr .done {
+  color: #65CACB;
+}
+html body .all_box table tr .undone {
+  color: #565E92;
+}
+html body .all_box table .top {
+  background: #FFFFFF;
+  color: #5CB467 ;
+  font-size: 16px;
+}
+html body .all_box table .top th {
+  height: 50px;
+}
